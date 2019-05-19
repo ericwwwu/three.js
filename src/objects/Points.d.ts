@@ -23,6 +23,9 @@ export class Points extends Object3D {
   type: 'Points';
   isPoints: true;
 
+  morphTargetInfluences?: number[];
+  morphTargetDictionary?: { [key: string]: number };
+
   /**
    * An instance of Geometry or BufferGeometry, where each vertex designates the position of a particle in the system.
    */

@@ -25,6 +25,7 @@ export interface PointsMaterialParameters extends MaterialParameters {
   color?: Color | string | number;
   map?: Texture;
   size?: number;
+  morphTargets?:boolean;
   sizeAttenuation?: boolean;
 }
 
